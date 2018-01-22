@@ -19,7 +19,21 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    func readQRCodeList() -> [QRCode] {
+        return FileStorage.loadQRCodes()
+    }
+    
+    func addNewQRCode(code: String) {
+        FileStorage.saveQRCode(item: QRCode(name:code))
+    }
+    
+    func deleteQRCode(qrId: Int) {
+        FileStorage.deleteQRCode(qrId: qrId)
+    }
+    
+    func deleteAllQRCodes() {
+        FileStorage.deleteAllQRCodes()
+    }
 }
 

@@ -14,6 +14,9 @@
 		C25441B12015B919004FD5A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25441AF2015B919004FD5A0 /* LaunchScreen.storyboard */; };
 		C25441BC2015B919004FD5A0 /* NSKeyedArchiverDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25441BB2015B919004FD5A0 /* NSKeyedArchiverDemoTests.swift */; };
 		C25441C72015B919004FD5A0 /* NSKeyedArchiverDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25441C62015B919004FD5A0 /* NSKeyedArchiverDemoUITests.swift */; };
+		C25441E12015BAB5004FD5A0 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25441DE2015BAB5004FD5A0 /* QRCode.swift */; };
+		C25441E22015BAB5004FD5A0 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25441DF2015BAB5004FD5A0 /* DataStore.swift */; };
+		C25441E32015BAB5004FD5A0 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25441E02015BAB5004FD5A0 /* FileStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		C25441C22015B919004FD5A0 /* NSKeyedArchiverDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSKeyedArchiverDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25441C62015B919004FD5A0 /* NSKeyedArchiverDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSKeyedArchiverDemoUITests.swift; sourceTree = "<group>"; };
 		C25441C82015B919004FD5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25441DE2015BAB5004FD5A0 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
+		C25441DF2015BAB5004FD5A0 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
+		C25441E02015BAB5004FD5A0 /* FileStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +106,8 @@
 				C25441A62015B919004FD5A0 /* AppDelegate.swift */,
 				C25441A82015B919004FD5A0 /* ViewController.swift */,
 				C25441AA2015B919004FD5A0 /* Main.storyboard */,
-				C25441AD2015B919004FD5A0 /* Assets.xcassets */,
-				C25441AF2015B919004FD5A0 /* LaunchScreen.storyboard */,
-				C25441B22015B919004FD5A0 /* Info.plist */,
+				C25441DD2015BA5D004FD5A0 /* FileManager */,
+				C25441E42015BB5B004FD5A0 /* Others */,
 			);
 			path = NSKeyedArchiverDemo;
 			sourceTree = "<group>";
@@ -123,6 +128,26 @@
 				C25441C82015B919004FD5A0 /* Info.plist */,
 			);
 			path = NSKeyedArchiverDemoUITests;
+			sourceTree = "<group>";
+		};
+		C25441DD2015BA5D004FD5A0 /* FileManager */ = {
+			isa = PBXGroup;
+			children = (
+				C25441DF2015BAB5004FD5A0 /* DataStore.swift */,
+				C25441E02015BAB5004FD5A0 /* FileStorage.swift */,
+				C25441DE2015BAB5004FD5A0 /* QRCode.swift */,
+			);
+			path = FileManager;
+			sourceTree = "<group>";
+		};
+		C25441E42015BB5B004FD5A0 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				C25441AD2015B919004FD5A0 /* Assets.xcassets */,
+				C25441AF2015B919004FD5A0 /* LaunchScreen.storyboard */,
+				C25441B22015B919004FD5A0 /* Info.plist */,
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,7 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C25441A92015B919004FD5A0 /* ViewController.swift in Sources */,
+				C25441E32015BAB5004FD5A0 /* FileStorage.swift in Sources */,
+				C25441E22015BAB5004FD5A0 /* DataStore.swift in Sources */,
 				C25441A72015B919004FD5A0 /* AppDelegate.swift in Sources */,
+				C25441E12015BAB5004FD5A0 /* QRCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +456,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JJJ4YM5QJ;
-				INFOPLIST_FILE = NSKeyedArchiverDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NSKeyedArchiverDemo/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexainitiative.NSKeyedArchiverDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -443,7 +471,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5JJJ4YM5QJ;
-				INFOPLIST_FILE = NSKeyedArchiverDemo/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/NSKeyedArchiverDemo/Others/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hexainitiative.NSKeyedArchiverDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
