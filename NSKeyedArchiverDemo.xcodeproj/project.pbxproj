@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		C25441A72015B919004FD5A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25441A62015B919004FD5A0 /* AppDelegate.swift */; };
-		C25441A92015B919004FD5A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25441A82015B919004FD5A0 /* ViewController.swift */; };
 		C25441AC2015B919004FD5A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25441AA2015B919004FD5A0 /* Main.storyboard */; };
 		C25441AE2015B919004FD5A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25441AD2015B919004FD5A0 /* Assets.xcassets */; };
 		C25441B12015B919004FD5A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25441AF2015B919004FD5A0 /* LaunchScreen.storyboard */; };
@@ -17,6 +16,7 @@
 		C25441E12015BAB5004FD5A0 /* QRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25441DE2015BAB5004FD5A0 /* QRCode.swift */; };
 		C25441E22015BAB5004FD5A0 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25441DF2015BAB5004FD5A0 /* DataStore.swift */; };
 		C25441E32015BAB5004FD5A0 /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25441E02015BAB5004FD5A0 /* FileStorage.swift */; };
+		C25441E62015C43A004FD5A0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25441E52015C43A004FD5A0 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		C25441A32015B919004FD5A0 /* NSKeyedArchiverDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSKeyedArchiverDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25441A62015B919004FD5A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C25441A82015B919004FD5A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C25441AB2015B919004FD5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C25441AD2015B919004FD5A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C25441B02015B919004FD5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		C25441DE2015BAB5004FD5A0 /* QRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCode.swift; sourceTree = "<group>"; };
 		C25441DF2015BAB5004FD5A0 /* DataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		C25441E02015BAB5004FD5A0 /* FileStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		C25441E52015C43A004FD5A0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,7 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				C25441A62015B919004FD5A0 /* AppDelegate.swift */,
-				C25441A82015B919004FD5A0 /* ViewController.swift */,
+				C25441E52015C43A004FD5A0 /* TableViewController.swift */,
 				C25441AA2015B919004FD5A0 /* Main.storyboard */,
 				C25441DD2015BA5D004FD5A0 /* FileManager */,
 				C25441E42015BB5B004FD5A0 /* Others */,
@@ -284,7 +284,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C25441A92015B919004FD5A0 /* ViewController.swift in Sources */,
+				C25441E62015C43A004FD5A0 /* TableViewController.swift in Sources */,
 				C25441E32015BAB5004FD5A0 /* FileStorage.swift in Sources */,
 				C25441E22015BAB5004FD5A0 /* DataStore.swift in Sources */,
 				C25441A72015B919004FD5A0 /* AppDelegate.swift in Sources */,
