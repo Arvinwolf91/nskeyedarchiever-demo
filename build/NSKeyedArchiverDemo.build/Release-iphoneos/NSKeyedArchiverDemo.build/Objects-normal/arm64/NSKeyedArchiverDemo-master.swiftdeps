@@ -1,0 +1,9 @@
+version: "Apple Swift version 4.0.3 (swiftlang-900.0.74.1 clang-900.0.39.2)"
+options: "0ff28facc3fb72397860435758036b7e"
+build_time: [1517195642, 483824000]
+inputs:
+  "/Users/arvin_wolf/nskeyedarchiever-demo/NSKeyedArchiverDemo/TableViewController.swift": [9223372036, 854775807]
+  "/Users/arvin_wolf/nskeyedarchiever-demo/NSKeyedArchiverDemo/FileManager/FileStorage.swift": [9223372036, 854775807]
+  "/Users/arvin_wolf/nskeyedarchiever-demo/NSKeyedArchiverDemo/FileManager/DataStore.swift": [9223372036, 854775807]
+  "/Users/arvin_wolf/nskeyedarchiever-demo/NSKeyedArchiverDemo/AppDelegate.swift": [9223372036, 854775807]
+  "/Users/arvin_wolf/nskeyedarchiever-demo/NSKeyedArchiverDemo/FileManager/QRCode.swift": [9223372036, 854775807]
